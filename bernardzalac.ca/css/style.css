@@ -1,0 +1,162 @@
+p, h1 {
+  font-family: "Droid Sans";
+}
+
+
+
+                                                           /*NAVIGATION*/
+ 
+ 
+ .navbar {
+    background-color: #242424;
+    border-button:1px solid #b9b9b9;
+    font-family: 'Lato', sans-serif;
+ }
+ 
+ .navbar a {
+    color:#cccccc !important;
+ }
+ 
+ .navbar a:hover {
+    color:#ffffff !important;
+    background-color:#646464 !important;  
+ }
+ 
+ .navbar-header .navbar-brand {
+    color:white !important;
+    font-size:1.5em;
+ }
+ 
+ 
+ .navbar-default .nav li.active a {
+  color: #1d1d1d  !important;
+  
+ }
+ 
+                                                              /*HEADER*/
+ 
+  .header {
+    width: 100%;
+    padding: 140px 0px 60px;
+    padding-top: 140px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+    background: url(../img/bridge.jpg) center center cover no-repeat;
+    background-image: url(../img/bridge.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    border-bottom: 2px solid rgb(201, 201, 201);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(201, 201, 201);
+}
+ 
+ .header h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 7.0em;
+ }
+ 
+ .header p {
+    color: white;
+    font-size: 1.2em;
+    
+ }
+ 
+ .header .btn {
+    padding: 5px 50px 5px 50px;
+    border-radius: 0;
+ }
+ 
+ 
+ @media(max-width:768px) 
+    
+    .header {
+        text-align:center;
+        padding-top: 15%;
+    }
+    
+    .header .btn {
+        padding: 5px 12px 5px 12px;
+        
+    }
+    
+    .header img {
+        padding-top: 10%;
+    }
+    
+    .header h1 {
+      font-size:6em;  
+    }
+    
+    .header p {
+        font-size:1.2em;
+    }
+ 
+                                                                    /*END OF HEADER*/
+                                                                    
+                                                       /*ABOUT*/
+                                          
+ .about {
+  padding:: 100px 0 100px;
+  text-align: center;
+  background-color: rgb(51, 122, 183);
+ }
+  
+ .about h1 {
+  font-size: 2em;
+  color: #337ab7;
+  padding: 0 0 25px;
+ }
+ 
+ .about p {
+  padding-bottom: 20px;
+  color: white;
+  font-size: 1em;
+ }                                                               
+                            
+                                                                /*END OF ABOUT*/                
+                                                                    
+                                                                    
+                                                                      /*CONTACT*/
+                                             
+                                             
+  .contact {
+  padding:: 100px 0 100px;
+  text-align: center;
+  color: #337ab7;
+ }                                                      
+                                                            
+   .contact h1 {
+      font-size:2em;
+      padding-bottom: 25px;
+       color: #337ab7;
+     }
+          
+          
+   .contact p {
+    padding: 0 3 10px;
+    font-size: 1.5em;
+    
+   }                                                         
+                                                            
+    .contact .fa {
+     padding: 20px 5px 40px;
+    }
+     
+     .contact li {
+      padding-top: 10px;
+     }
+                                                            
+                                                            /*END OF CONTACT*/
+                                                                    
+                                                                    
+                                                                    
